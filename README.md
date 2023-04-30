@@ -1,1 +1,3 @@
-# Rust-Interop-with-C-
+# RUST Interop With C++
+
+Remember to `cargo clean` after modifying C++.

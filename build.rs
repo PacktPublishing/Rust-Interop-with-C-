@@ -2,7 +2,7 @@ extern crate cc;
 
 fn main() {
     cc::Build::new()
-        .file("src/add.cpp")
         .cpp(true)
+        .file("src/add.cpp")
         .compile("libadd.a");
 }
